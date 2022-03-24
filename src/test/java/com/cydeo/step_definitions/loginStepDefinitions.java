@@ -10,7 +10,7 @@ public class loginStepDefinitions {
 
     @Given("user is on the library login page")
     public void user_is_on_the_library_login_page() {
-        System.out.println("precondition for AC");
+        System.out.println("Im background, run before each scenario");
     }
     @When("user enter librarian username")
     public void user_enter_librarian_username() {
