@@ -4,8 +4,9 @@ Feature: As a user, I should be able to login with correct credentials to differ
 
   Accounts are: librarian, student, admin
 
-  @librarian
+  @librarian @wip
   Scenario: login as librarian
+    Given user is on the library login page
     When user enter librarian username
     And user enter librarian password
     Then user should see the dashboard

@@ -1,5 +1,6 @@
 package com.cydeo.step_definitions;
 
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -7,6 +8,10 @@ import java.sql.SQLOutput;
 
 public class loginStepDefinitions {
 
+    @Given("user is on the library login page")
+    public void user_is_on_the_library_login_page() {
+        System.out.println("precondition for AC");
+    }
     @When("user enter librarian username")
     public void user_enter_librarian_username() {
         System.out.println("user enter librarian username");
@@ -37,6 +42,8 @@ public class loginStepDefinitions {
         System.out.println("user enter admin password");
 
     }
+
+
 
 
 }
