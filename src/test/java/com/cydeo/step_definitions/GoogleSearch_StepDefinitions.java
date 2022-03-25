@@ -38,7 +38,6 @@ public class GoogleSearch_StepDefinitions {
 
     }
 
-    // new line addded
     @Then("user sees apple is in the google title")
     public void user_sees_apple_is_in_the_google_title() {
       Driver.getDriver().getTitle();
