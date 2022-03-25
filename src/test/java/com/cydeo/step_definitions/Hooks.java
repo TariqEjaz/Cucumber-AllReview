@@ -7,8 +7,12 @@ import io.cucumber.java.BeforeStep;
 
 public class Hooks {
 
-    @Before //
+    @Before ("@login")//
     public void setupScenario() {
+        System.out.println("===== Setting up browser using cucumber @Before");
+    }
+    @Before ("@login")//
+    public void loginScenario() {
         System.out.println("===== Setting up browser using cucumber @Before");
     }
 

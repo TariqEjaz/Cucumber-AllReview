@@ -7,7 +7,7 @@ Feature: As a user, I should be able to login with correct credentials to differ
   Background: For the scenario in the features file, user is expected to be on login page
     Given user is on the library login page
 
-  @librarian @wip
+  @librarian @wip @login
   Scenario: login as librarian
     When user enter librarian username
     And user enter librarian password
