@@ -11,7 +11,7 @@ Feature: Google search functionality
       When user is on google search page
       And user types apple in the google search box and clicks enter
       Then user sees apple is in the google title
-  @wip
+
   Scenario: Search Functionality Title Verification
     When user is on google search page
     And user types "apple" in the google search box and clicks enter
