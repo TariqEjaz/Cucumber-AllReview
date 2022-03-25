@@ -35,10 +35,7 @@ public class GoogleSearch_StepDefinitions {
     @When("user types apple in the google search box and clicks enter")
     public void user_types_apple_in_the_google_search_box_and_clicks_enter() {
         googleSearchPage.searchBox.sendKeys("apple" + Keys.ENTER);
-
     }
-
-
     @Then("user sees apple is in the google title")
     public void user_sees_apple_is_in_the_google_title() {
       Driver.getDriver().getTitle();
