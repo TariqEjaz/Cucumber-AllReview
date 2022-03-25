@@ -1,5 +1,6 @@
 @Regression @smoke
-Feature: As a user, I should be able to login with correct credentials to different accounts.
+Feature: Login functionality
+  As a user, I should be able to login with correct credentials to different accounts.
   and dashboard should be displayed.
 
   Accounts are: librarian, student, admin
