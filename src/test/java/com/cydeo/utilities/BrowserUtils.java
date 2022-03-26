@@ -58,5 +58,11 @@ public class BrowserUtils {
 
     }
 
+    public static void verifyURL(String expectedURL){
+
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedURL));
+
+    }
+
 
 }

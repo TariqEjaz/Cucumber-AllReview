@@ -12,7 +12,7 @@ Feature: Wikipedia Search Functionality Title Verification
     And User clicks wiki search button
     Then User sees "Steve Jobs" is in the main header
 
-  @wip
+
   Scenario Outline: Wikipedia Search Functionality Header Verification
     Given User is on Wikipedia home page
     When User types "<searchValue>" in the wiki search box
